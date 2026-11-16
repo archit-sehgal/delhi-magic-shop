@@ -124,9 +124,15 @@ export function Header() {
           <a
             href="/"
             onClick={(e) => handleLink(e, '/')}
-            className="font-display text-lg sm:text-[24px] font-bold tracking-tight text-[#121A25] whitespace-nowrap shrink-0 hover:text-[#DC2626] transition-colors"
+            aria-label="Delhi Magic Shop"
+            className="inline-flex items-center shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#DC2626] rounded-md"
           >
-            Delhi Magic Shop
+            <img
+              src="/src/assets/images/delhi_magic_logo_1794833755046.jpg"
+              alt="Delhi Magic Shop"
+              referrerPolicy="no-referrer"
+              className="h-10 sm:h-13 w-auto object-contain mix-blend-multiply"
+            />
           </a>
         </div>
 

@@ -19,9 +19,15 @@ export function Footer() {
           <a
             href="/"
             onClick={(e) => go(e, '/')}
-            className="font-display text-2xl font-bold text-white inline-block hover:text-amber-300 transition-colors"
+            aria-label="Delhi Magic Shop"
+            className="inline-flex items-center bg-white rounded-xl px-3.5 py-2 shadow-xs hover:opacity-95 transition-opacity"
           >
-            Delhi Magic Shop
+            <img
+              src="/src/assets/images/delhi_magic_logo_1794833755046.jpg"
+              alt="Delhi Magic Shop"
+              referrerPolicy="no-referrer"
+              className="h-12 w-auto object-contain"
+            />
           </a>
           <p className="text-sm text-slate-300 leading-relaxed">
             Established in {BUSINESS_INFO.establishedYear} and managed by {BUSINESS_INFO.directorName} under{' '}
