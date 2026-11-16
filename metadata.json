@@ -1,0 +1,6 @@
+{
+  "name": "Delhi Magic Shop",
+  "description": "Established in 2002 in New Delhi by Sumit Kharbanda, Delhi Magic Shop is India's premier destination for close-up magic, mentalism equipment, playing cards, stage illusions, and beginner magic props.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
