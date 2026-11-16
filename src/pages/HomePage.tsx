@@ -283,6 +283,7 @@ export function HomePage() {
                 <SmartImage
                   src={activeSlide.image}
                   alt={activeSlide.title}
+                  priority={heroIdx === 0}
                   className={`relative z-10 w-full h-full transition-opacity duration-300 ${
                     activeSlide.imageFit === 'contain'
                       ? 'object-contain object-center'
